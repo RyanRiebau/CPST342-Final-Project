@@ -75,8 +75,8 @@ padding: 20px
 }
 
 .mainphoto {
- width: 200px;
- height: 200px;
+ width: 250px;
+ height: 250px;
  border-radius: 50%;
  margin-top: 20px;
  border: solid;
@@ -92,11 +92,12 @@ margin: 20px;
 
 /* Header */
 h1 {
-white-space: nowrap;
+white-space: break-spaces;
 max-width: 160px;
-font-size:24px;
+font-size:30px;
 margin-top: 50px;
-
+text-align: center;
+color:#15BEF0;
 }
 
 /* Sub-header*/
