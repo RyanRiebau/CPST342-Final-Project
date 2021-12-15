@@ -89,7 +89,7 @@
   font-size: 16px;
 }
 
-/*Mobile and up*/
+/* Small devices (outside media queries) */
 .page-title {
   text-align: center;
   font-size: 30px;
@@ -133,7 +133,7 @@
   padding-bottom: 74px;
 }
 
-/* Tablet */
+/* Medium Devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .page-wrapper {
   display: grid;
@@ -167,7 +167,7 @@
   padding-left: 52px;
 }
 
-/* Desktop*/
+/* Large devices (desktops, 1440px and up)*/
 @media (min-width: 1440px) {
   .page-wrapper {
     grid-template-columns: 2fr 1fr;
