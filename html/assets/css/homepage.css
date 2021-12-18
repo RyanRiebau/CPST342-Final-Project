@@ -1,0 +1,109 @@
+/* Main image and text area*/
+.item4 {
+ grid-area: main_photo;
+}
+
+.mainphoto {
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+ margin-top: 20px;
+ border: solid;
+ border-width: thin;
+}
+
+/* main text area*/
+.item5 {
+grid-area: main-text;
+padding-bottom: 60px;
+margin: 20px;
+}
+
+/* Header */
+h1 {
+white-space: break-spaces;
+max-width: 160px;
+font-size:30px;
+margin-top: 50px;
+text-align: center;
+color:#15BEF0;
+}
+
+/* Sub-header*/
+h2 {
+ max-width: 160px;
+ text-align: center;
+ font-size:20px;
+
+}
+
+/* Main area buttons*/
+.item6 {
+grid-area: mainButtons;
+display: grid;
+grid-gap: 5px;
+margin-bottom: 5px;
+}
+
+.item6 :hover {
+    background-color: #15BEF0;
+    color: black;
+}
+
+.thewho {
+background-color: #0063ac;
+padding: 20px;
+color: #ffffff;
+font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.supporting {
+background-color: #0063ac;
+padding: 20px;
+color: #ffffff;
+font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .page-title {
+    grid-column: 1 / -1;
+  }
+
+  .mainphoto {
+ width: 300px;
+ height: 300px;
+ border-radius: 50%;
+ margin-top: 20px;
+ margin-left: 50px;
+ border: solid;
+ border-width: thin;
+}
+}
+
+@media (min-width: 1440px) {
+  .page-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .page-title {
+    grid-column: 1 / -1;
+  }
+
+  .mainphoto {
+ width: 400px;
+ height: 400px;
+ border-radius: 50%;
+ margin-top: 20px;
+ margin-left: 50px;
+ border: solid;
+ border-width: thin;
+}
+}

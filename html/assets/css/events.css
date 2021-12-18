@@ -1,0 +1,147 @@
+/*Mobile and up*/
+.page-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (min-width: 390px) {
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 340px;
+  padding-left: 25px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.opener {
+  color: #006ca3;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.p {
+    text-align: center;
+
+}
+
+.golf-cover{
+  position:static;
+  width: 330px;
+  height: 330px;
+  top: 597px;
+  justify-self: center;
+  padding-top: 50px;
+}
+
+.gaming-cover{
+  position:static;
+  width: 330px;
+  top: 597px;
+  padding-top: 58px;
+  padding-bottom: 74px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 698px;
+  padding-left: 35px;
+}
+
+.image-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.golf-cover{
+  position:static;
+  width: 303px;
+  height: 303px;
+  left: 55px;
+  top: 531px;
+  padding-top: 20px;
+  padding-left: 55px;
+}
+
+.gaming-cover{
+  position:static;
+  width: 303px;
+  left: 410px;
+  top: 563px;
+  padding-top: 89px;
+  padding-left: 52px;
+}
+
+/* Desktop*/
+@media (min-width: 1440px) {
+  .page-wrapper {
+    grid-template-columns: 2fr 1fr;
+    padding-left: 200px;
+  }
+
+  .page-title {
+  text-align:center;
+  font-size: 60px;
+  width: 900px;
+  padding-left: 100px;
+  }
+
+  .opener {
+  color: #006ca3;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+.p1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.p2 {
+    text-align: center;
+    font-size: 25px;
+}
+  .image-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  max-width: 500px;
+  justify-self: center;
+  }
+
+.golf-cover{
+  position:static;
+  width: 275px;
+  height: 275px;
+  left: 161px;
+  top: 23px;
+  justify-self: center;
+  padding-left: 30px;
+}
+
+.gaming-cover{
+  position:static;
+  width: 275px;
+  left: 161px;
+  top: 58px;
+  justify-self: center;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.page-title {
+grid-column: 1 / -1;
+}
+}
+

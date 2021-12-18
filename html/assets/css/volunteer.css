@@ -1,0 +1,40 @@
+/* Small devices (outside media queries) */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.opener {
+  color: #006ca3;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+p {
+  :0 ;
+}
+
+.page-image {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  justify-self: center;
+}
+
+/* Medium and Large devices (tablets and up) */
+@media (min-width: 1440px) {
+  .page-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .page-title {
+    grid-column: 1 / -1;
+  }
+}
